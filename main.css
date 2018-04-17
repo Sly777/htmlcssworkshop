@@ -1,0 +1,84 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    background-color: rgb(215, 123, 10);
+    text-transform: uppercase;
+    color: white;
+}
+
+p,
+ul li {
+    font-family: 'Comfortaa', cursive;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+#home {
+    margin-top: 0;
+}
+
+.work {
+    border-bottom: 1px solid orange;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.school {
+    border-bottom: 1px solid red;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+#home ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#home ul li {
+    font-size: 70px;
+    display: inline-block;
+}
+
+#navbar {
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(215, 123, 10);
+    left: 0;
+    top: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#navbar img {
+    width: 100px;
+    border: 5px solid rgba(0,0,0,0.2);
+    border-radius: 50px;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: white;
+    font-size: 14px;
+}
+
+body {
+    margin-left: 220px;
+}
+
+
+
+
+
